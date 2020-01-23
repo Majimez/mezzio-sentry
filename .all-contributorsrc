@@ -26,6 +26,15 @@
         "review",
         "maintenance"
       ]
+    },
+    {
+      "login": "ivok",
+      "name": "Ivo Kuzov",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5767316?v=4",
+      "profile": "https://github.com/ivok",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
