@@ -29,5 +29,5 @@ parameters:
         - .phpstorm.meta.php
         - test
     phpversion:
-      project: '7.3'
+      project: '7.2'
     securitychecker: ~

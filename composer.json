@@ -1,4 +1,28 @@
 {
+    "name": "mez/mezzio-sentry",
+    "type": "library",
+    "description": "Sentry Error Logging for Mezzio",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Meredith",
+            "email": "martin@sourceguru.net"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "laminas/laminas-servicemanager": "^3.4",
+        "laminas/laminas-stratigility": "^3.2",
+        "psr/container": "^1.0",
+        "psr/http-message": "^1.0",
+        "sentry/sentry": "^2.3.1"
+    },
+    "replace": {
+        "mez/zend-expressive-sentry": "*"
+    },
+    "conflict": {
+        "mez/zend-expressive-sentry": "*"
+    },
     "require-dev": {
         "friendsofphp/php-cs-fixer": "^2.16",
         "jakub-onderka/php-parallel-lint": "^1.0",
@@ -9,5 +33,15 @@
         "phpro/grumphp": "^0.17.2",
         "phpstan/phpstan": "^0.12.7",
         "sensiolabs/security-checker": "^6.0"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.24"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Mez\\Sentry\\": "src/"
+        }
     }
 }
