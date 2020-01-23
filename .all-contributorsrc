@@ -45,6 +45,16 @@
         "maintenance",
         "code"
       ]
+    },
+    {
+      "login": "davidbristol",
+      "name": "David Bristol",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16607760?v=4",
+      "profile": "https://github.com/davidbristol",
+      "contributions": [
+        "review",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
