@@ -1,0 +1,33 @@
+parameters:
+  git_dir: .
+  bin_dir: vendor/bin
+  tasks:
+    composer: ~
+    composer_normalize: ~
+    composer_require_checker: ~
+    phpcsfixer2:
+      config: .php_cs
+      allow_risky: true
+    phplint: ~
+    phpmd:
+      exclude:
+      - vendor
+      - config
+      - test
+      ruleset:
+      - cleancode
+      - codesize
+    phpparser:
+      visitors:
+        forbidden_function_calls:
+          blacklist:
+            - 'var_dump'
+        no_exit_statements: ~
+    phpstan:
+      level: 7
+      ignore_patterns:
+        - .phpstorm.meta.php
+        - test
+    phpversion:
+      project: '7.3'
+    securitychecker: ~
