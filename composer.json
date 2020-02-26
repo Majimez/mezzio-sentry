@@ -30,7 +30,7 @@
         "maglnet/composer-require-checker": "^2.1",
         "nikic/php-parser": "^4.3",
         "phpmd/phpmd": "^2.8",
-        "phpro/grumphp": "^0.17.2",
+        "phpro/grumphp": "^0.17.2 || ^0.18.0",
         "phpstan/phpstan": "^0.12.7",
         "sensiolabs/security-checker": "^6.0"
     },
