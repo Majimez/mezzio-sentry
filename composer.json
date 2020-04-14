@@ -1,12 +1,12 @@
 {
-    "name": "mez/mezzio-sentry",
+    "name": "majimez/mezzio-sentry",
     "type": "library",
     "description": "Sentry Error Logging for Mezzio",
     "license": "MIT",
     "authors": [
         {
             "name": "Martin Meredith",
-            "email": "martin@sourceguru.net"
+            "email": "martin@majimez.com"
         }
     ],
     "require": {
